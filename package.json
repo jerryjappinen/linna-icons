@@ -1,0 +1,15 @@
+{
+  "name": "linna-svg",
+  "version": "0.1.0",
+  "description": "Generic default icon set for web projects.",
+  "main": "index.js",
+  "scripts": {
+    "patch": "npm version patch -m \"New patch version\" && npm publish && git push -u",
+    "minor": "npm version minor -m \"New minor version\" && npm publish && git push -u",
+    "major": "npm version major -m \"New major version\" && npm publish && git push -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jerryjappinen/linna-svg.git"
+  }
+}
