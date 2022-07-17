@@ -1,6 +1,6 @@
 {
-  "name": "linna-svg",
-  "version": "0.1.1",
+  "name": "linna-icons",
+  "version": "0.1.0",
   "description": "Generic default icon set for web projects.",
   "main": "index.js",
   "scripts": {
