@@ -1,3 +1,5 @@
-# lateralnord-svg
+# linna-icons
 
-Icon set for Lateral Nord projects.
+Icon set for Linna projects.
+
+https://npmjs.org/package/linna-vue
