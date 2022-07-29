@@ -15,14 +15,15 @@ export default defineNuxtModule({
     }
   },
 
-  hooks: {
-    'components:dirs' (dirs) {
-      // Add ./components dir to the list
-      dirs.push({
-        path: fileURLToPath(new URL('./', import.meta.url)),
-        extensions: ['svg', 'vue'],
-        prefix: 'Icon' // NOTE: need to move this to setup function to support an adjustable prefix
-      })
-    }
+  defaults: {
+    prefix: 'Icon'
+  },
+
+  async setup ({ prefix }) {
+    await addComponentsDir({
+      path: fileURLToPath(new URL('./', import.meta.url)),
+      extensions: ['svg', 'vue'],
+      prefix: prefix || ''
+    })
   }
 })
