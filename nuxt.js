@@ -1,4 +1,4 @@
-import { defineNuxtModule } from '@nuxt/kit'
+import { defineNuxtModule, addComponentsDir } from '@nuxt/kit'
 import { fileURLToPath } from 'node:url'
 
 // This file allows auto importing linna-icons in a Nuxt app
