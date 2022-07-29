@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url'
 export default defineNuxtModule({
   meta: {
     name: 'linna-icons',
-    configKey: 'linna-icons',
+    configKey: 'linnaIcons',
     compatibility: {
       nuxt: '^3.0.0'
     }
