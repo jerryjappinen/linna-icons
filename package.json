@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:jerryjappinen/linna-svg.git"
+  },
+  "devDependencies": {
+    "nuxt": "^3.0.0-rc.6"
   }
 }
